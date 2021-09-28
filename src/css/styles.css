@@ -1,0 +1,55 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  height: 90vh;
+}
+
+body {
+  background: white;
+  font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+.app {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.color h1 {
+  font-size: 6rem;
+  background: #fff;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 1068px) {
+  .color h1 {
+    font-size: 3rem;
+  }
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-size: 3rem;
+  font-family: "Helvetica Neue",Helvetica,Arial;
+  font-variant: small-caps;
+}
