@@ -4,7 +4,7 @@ function randomClr() {
   let r = Math.round(Math.random(255) * 255);
   let g = Math.round(Math.random(255) * 255);
   let b = Math.round(Math.random(255) * 255);
-  console.log(r)
+  console.log(r, g, b);
 
   let ranCol = `rgb(${r},${g},${b})`;
 
